@@ -1,4 +1,4 @@
 var lifx = require('./lifx');
 
-lifx.listToggle();
+lifx.lightsToggle();
 setTimeout(lifx.lightsToggle, 3000);
