@@ -1,3 +1,4 @@
-require('lifx');
+var lifx = require('./lifx');
 
-console.log('Hello, world');
+lifx.listToggle();
+setTimeout(lifx.lightsToggle, 3000);
